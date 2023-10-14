@@ -4,7 +4,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -52,3 +51,12 @@ markdown_extensions:
 
 copyright: |
   &copy; 2023 <a href="https://github.com/fooshin" target="blank" rel="noopener">Daniel Lisa</a>
+
+#Page tree
+nav:
+  - Home: index.md
+  - Google Cybersecurity: 
+    - Introduction: cybersecurity/cybersecurity.md
+    - Python: python.md
+    - Assessement: assessment.md
+    - Threat Modeling: threatmodel.md
